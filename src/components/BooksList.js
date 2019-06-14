@@ -9,7 +9,13 @@ const BooksList = props => {
       return <Book key={book.id} bookInfo={book} />;
     })
   ) : (
-    <div>Actually, no books in library</div>
+    <tr>
+    <td data-th="Id">0</td>
+    <td data-th="Title">Actually, no books in library.</td>
+    <td data-th="Author">librarian</td>
+    <td data-th="Edit"></td>
+    <td data-th="Remove"></td>
+  </tr>
   );
   return (
     <>
@@ -17,6 +23,7 @@ const BooksList = props => {
         <table>
           <thead>
             <tr>
+              <th></th>
               <th>Book Title</th>
               <th>Author</th>
               <th />

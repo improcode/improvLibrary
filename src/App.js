@@ -4,11 +4,13 @@ import "./App.css";
 import BooksList from "./components/BooksList";
 import EditBook from "./components/EditBook";
 
-function App() {
+
+
+const App = () => {
   return (
     <div className="App">
       <div className="header">
-        <h1>improvLIBRARY</h1>
+        <h1>improv<span className="headerLogo">LIBRARY</span></h1>
       </div>
       <Router>
         <div>

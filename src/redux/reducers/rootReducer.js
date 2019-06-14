@@ -1,21 +1,5 @@
 const initState = {
-  books: [
-    {
-      id: "01",
-      title: "Królestwo improwizacji",
-      author: "Johnston"
-    },
-    {
-      id: "02",
-      title: "Impro w praktyce",
-      author: "Johnston"
-    },
-    {
-      id: "03",
-      title: "Ćwiczenia na kreatywność",
-      author: "Swiss"
-    }
-  ]
+  books: [{id:0, title: 'Actually, no books in library.', author: 'librarian'}]
 };
 
 const rootReducer = (state = initState, action) => {

@@ -1,7 +1,7 @@
 import { fetchBooks } from "../redux/actions/bookActions";
 import axios from "axios";
 
-const apiUrl = "";
+const apiUrl = "http://localhost:4000/books/";
 
 export const fetchAllBooks = () => {
   return dispatch => {
@@ -9,7 +9,7 @@ export const fetchAllBooks = () => {
       .get(apiUrl)
       .then(response => {
         console.log(response);
-        dispatch(fetchPosts(response.data));
+        dispatch(fetchBooks(response.data));
       })
       .catch(error => {
         throw error;

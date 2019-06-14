@@ -1,0 +1,59 @@
+{
+    "books": [
+        {
+            "id": "1",
+            "title": "Truth in Comedy: The Manual for Improvisation",
+            "author": "Charna Halpern"
+        },
+        {
+            "id": "2",
+            "title": "Impro: Improvisation and the Theatre",
+            "author": "Keith Johnstone"
+        },
+        {
+            "id": "3",
+            "title": "Improvise: Scene from the Inside Out",
+            "author": "Mick Napier"
+        },
+        {
+            "id": "4",
+            "title": "Improvisation for the Theater 3E: A Handbook of Teaching and Directing Techniques (Drama and Performance Studies)",
+            "author": "Viola Spolin"
+        },
+        {
+            "id": "5",
+            "title": "Art by Committee: A Guide to Advanced Improvisation",
+            "author": "Charna Halpern"
+        },
+        {
+            "id": "6",
+            "title": "Jill Bernard’s Small Cute Book of Improv",
+            "author": "Jill Bernard"
+        },
+        {
+            "id": "7",
+            "title": "Improvisation for the Spirit: Live a More Creative, Spontaneous, and Courageous Life Using the Tools of Improv Comedy",
+            "author": "Katie Goodman"
+        },
+        {
+            "id": "8",
+            "title": "Improv Wisdom: Don’t Prepare, Just Show Up",
+            "author": "Patricia Ryan Madson"
+        },
+        {
+            "id": "9",
+            "title": "Something Wonderful Right Away: An Oral History of the Second City and the Compass Players",
+            "author": "Jeffrey Sweet"
+        },
+        {
+            "id": "10",
+            "title": "Impro for Storytellers (Theatre Arts (Routledge Paperback))",
+            "author": "Keith Johnstone"
+        },
+        {
+            "id": "11",
+            "title": "Upright Citizens Brigade Comedy Improvisation Manual",
+            "author": "Matt Besser"
+        }
+    ]
+}
