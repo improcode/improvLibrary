@@ -8,7 +8,6 @@ export const fetchAllBooks = () => {
     return axios
       .get(apiUrl)
       .then(response => {
-        console.log(response);
         dispatch(fetchBooks(response.data));
       })
       .catch(error => {
@@ -16,3 +15,14 @@ export const fetchAllBooks = () => {
       });
   };
 };
+
+export const fetchEditBook = (props, updateFunction) => {
+    axios
+        .get("http://localhost:4000/books/" + props.match.params.id)
+        .then(response => {
+            updateFunction(response.data)
+        })
+        .catch(error => {
+            throw error;
+        });
+}
